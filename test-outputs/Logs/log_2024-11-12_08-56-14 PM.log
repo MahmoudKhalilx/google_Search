@@ -1,4 +1,0 @@
-[INFO] 12-11-2024 20:56:14 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:17)] - chrome driver is opened
-[INFO] 12-11-2024 20:56:17 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:19)] - Page is redirected to the URL
-[INFO] 12-11-2024 20:56:17 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case verifySearchResultCountsBetweenPages started
-[INFO] 12-11-2024 20:56:26 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case verifySearchResultCountsBetweenPages passed

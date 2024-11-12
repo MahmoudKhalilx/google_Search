@@ -1,3 +1,0 @@
-[INFO] 11-11-2024 22:18:29 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:17)] - chrome driver is opened
-[INFO] 11-11-2024 22:18:33 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:19)] - Page is redirected to the URL
-[INFO] 11-11-2024 22:18:33 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case Search started
