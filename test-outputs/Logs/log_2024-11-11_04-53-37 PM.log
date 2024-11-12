@@ -1,0 +1,4 @@
+[INFO] 11-11-2024 16:53:37 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:17)] - chrome driver is opened
+[INFO] 11-11-2024 16:53:45 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:19)] - Page is redirected to the URL
+[INFO] 11-11-2024 16:53:45 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case validLoginUCTC started
+[INFO] 11-11-2024 16:53:45 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - Test Case validLoginUCTC passed

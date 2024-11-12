@@ -1,0 +1,4 @@
+[INFO] 12-11-2024 00:17:40 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:17)] - chrome driver is opened
+[INFO] 12-11-2024 00:17:41 [main] [Tests.T00_BaseTest.setup(T00_BaseTest.java:19)] - Page is redirected to the URL
+[INFO] 12-11-2024 00:17:41 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - Test Case Search started
+[INFO] 12-11-2024 00:17:44 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:40)] - Test Case Search failed
