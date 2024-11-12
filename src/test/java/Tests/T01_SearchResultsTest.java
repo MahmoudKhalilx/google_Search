@@ -25,14 +25,14 @@ public class T01_SearchResultsTest extends T00_BaseTest {
         googleSearchPage
                .EnterSearchContext(searchQuery)
                .goToNextPage();
-        Assert.assertTrue(getDriver().getCurrentUrl().contains("start=10"), "User is not on page 2");
+        Assert.assertTrue(googleSearchPage.getUrl("start=10"), "User is not on page 2");
 
         int page2Results = googleSearchPage.getResultsCount();
         System.out.println("Number of results on page 2: " + page2Results);
 
         googleSearchPage
                 .goToNextPage();
-        Assert.assertTrue(getDriver().getCurrentUrl().contains("start=20"), "User is not on page 3");
+        Assert.assertTrue(googleSearchPage.getUrl("start=20"), "User is not on page 3");
 
         int page3Results = googleSearchPage.getResultsCount();
         System.out.println("Number of results on page 3: " + page3Results);
@@ -53,25 +53,25 @@ public class T01_SearchResultsTest extends T00_BaseTest {
         googleSearchPage
                 .EnterSearchContext(searchQuery)
                 .goToNextPage();
-        Assert.assertTrue(getDriver().getCurrentUrl().contains("start=10"), "User is not on page 2");
+        Assert.assertTrue(googleSearchPage.getUrl("start=10"), "User is not on page 2");
 
         int page2Results = googleSearchPage.getResultsCount();
         System.out.println("Number of results on page 2: " + page2Results);
 
         googleSearchPage
                 .goToNextPage();
-        Assert.assertTrue(getDriver().getCurrentUrl().contains("start=20"), "User is not on page 3");
+        Assert.assertTrue(googleSearchPage.getUrl("start=20"), "User is not on page 3");
         SoftAssert softAssert=new SoftAssert();
         googleSearchPage
                 .goToNextPage();
-        Assert.assertTrue(getDriver().getCurrentUrl().contains("start=30"), "User is not on page 4");
+        Assert.assertTrue(googleSearchPage.getUrl("start=30"), "User is not on page 4");
 
         int page4Results = googleSearchPage.getResultsCount();
         System.out.println("Number of results on page 4: " + page4Results);
 
         googleSearchPage
                 .goToNextPage();
-        Assert.assertTrue(getDriver().getCurrentUrl().contains("start=40"), "User is not on page 4");
+        Assert.assertTrue(googleSearchPage.getUrl("start=40"), "User is not on page 4");
 
         int page5Results = googleSearchPage.getResultsCount();
         System.out.println("Number of results on page 5: " + page5Results);

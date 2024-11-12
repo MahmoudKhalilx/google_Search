@@ -44,13 +44,10 @@ public class GoogleSearchPage {
         return results.size();
     }
 
-    public boolean compareCurrentWithPreviousPage() {
-        int currentPageCount = getResultsCount();
-        return currentPageCount == previousPageResultCount;
+    public boolean getUrl(String Sart){
+        Utility.generalWait(driver);
+        return driver.getCurrentUrl().contains(Sart);
     }
 
-    public int getPreviousPageResultCount() {
-        return previousPageResultCount;
-    }
 
     }
