@@ -11,7 +11,7 @@ import static DriverFactory.DriverFactory.getDriver;
 import static Utilities.DataUtils.getJsonData;
 
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class SearchOn extends T00_BaseTest {
+public class T01_SearchResultsTest extends T00_BaseTest {
 
 
 
