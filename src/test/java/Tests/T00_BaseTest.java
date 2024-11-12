@@ -23,6 +23,6 @@ public class T00_BaseTest {
 
     @AfterMethod
     public void quit() {
-//        quitDriver();
+        quitDriver();
     }
 }

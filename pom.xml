@@ -65,14 +65,6 @@
         </exclusion>
       </exclusions>
     </dependency>
-
-    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
-    <dependency>
-      <groupId>com.github.javafaker</groupId>
-      <artifactId>javafaker</artifactId>
-      <version>${javaFaker}</version>
-    </dependency>
-
     <dependency>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-testng</artifactId>
@@ -123,29 +115,6 @@
       <artifactId>gson</artifactId>
       <version>${gsonVersion}</version>
     </dependency>
-
-
-    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-    <dependency>
-      <groupId>org.apache.poi</groupId>
-      <artifactId>poi</artifactId>
-      <version>${poiVersion}</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-    <dependency>
-      <groupId>org.apache.poi</groupId>
-      <artifactId>poi-ooxml</artifactId>
-      <version>${poiVersion}</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-csv</artifactId>
-      <version>${commonscsvVersion}</version>
-    </dependency>
-
-
-
 
 
   </dependencies>
